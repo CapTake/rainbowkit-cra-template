@@ -1,79 +1,46 @@
-<a href="https://rainbowkit.com">
-  <img alt="rainbowkit" src="https://user-images.githubusercontent.com/372831/168174718-685980e0-391e-4621-94a1-29bf83979fa5.png" />
-</a>
+# Getting Started with Create React App
 
-# RainbowKit
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**The best way to connect a wallet 🌈**
+## Available Scripts
 
-RainbowKit is a [React](https://reactjs.org/) library that makes it easy to add wallet connection to your dapp.
+In the project directory, you can run:
 
-- 🔥 Out-of-the-box wallet management
-- ✅ Easily customizable
-- 🦄 Built on top of [wagmi](https://github.com/tmm/wagmi) and [ethers](https://docs.ethers.io)
+### `npm start`
 
-## Quick start
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can scaffold a new RainbowKit + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org) app with one of the following commands, using your package manager of choice:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-```bash
-npm init @rainbow-me/rainbowkit@latest
-# or
-pnpm create @rainbow-me/rainbowkit@latest
-# or
-yarn create @rainbow-me/rainbowkit
-```
+### `npm test`
 
-## Documentation
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-For full documentation, visit [rainbowkit.com](https://rainbowkit.com).
+### `npm run build`
 
-### Try it out
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You can use the CodeSandbox links below try out RainbowKit:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- with [Create React App](https://codesandbox.io/s/rainbowkit-create-react-app-1vwx1r)
-- with [Create React App (TypeScript)](https://codesandbox.io/s/rainbowkit-create-typescript-app-xuxnqy)
-- with [Next.js](https://codesandbox.io/s/rainbowkit-nextjs-gz890p)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Examples
+### `npm run eject`
 
-The following examples are provided in the [examples](./examples/) folder of this repo.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- `with-create-react-app`
-- `with-next`
-- `with-next-custom-button`
-- `with-next-mint-nft`
-- `with-next-siwe-next-auth`
-- `with-next-siwe-iron-session`
-- `with-remix`
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Running examples
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-To run an example locally, install dependencies.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```bash
-pnpm install
-```
+## Learn More
 
-Then go into an example directory, eg: `with-next`.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-cd examples/with-next
-```
-
-Then run the dev script.
-
-```bash
-pnpm run dev
-```
-
-## Contributing
-
-Please follow our [contributing guidelines](./.github/CONTRIBUTING.md).
-
-## License
-
-Licensed under the MIT License, Copyright © 2022-present [Rainbow](https://rainbow.me).
-
-See [LICENSE](./LICENSE) for more information.
+To learn React, check out the [React documentation](https://reactjs.org/).
