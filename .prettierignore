@@ -5,3 +5,5 @@ CHANGELOG.md
 .contentlayer
 generated-test-app
 build
+node_modules
+

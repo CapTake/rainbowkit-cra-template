@@ -3,3 +3,5 @@ coverage
 dist
 *-app
 examples/*
+node_modules
+public
